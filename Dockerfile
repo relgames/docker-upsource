@@ -1,6 +1,4 @@
-FROM java:openjdk-7-jre
-
-MAINTAINER Eugene Volchek <evolchek@klika-tech.com>
+FROM dockerfile/java:oracle-java8
 
 ENV UPSOURCE_VERSION 1.0.12566
 WORKDIR /opt
